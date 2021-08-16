@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box ;
+}
+
+.nav-link p{
+    color:white;
+    font-size: 1.1rem;
+    font-family: 'EB Garamond', serif;
+    font-weight: 400;
+    padding-right: 7px;
+}
+.nav-link p:hover{
+    color: rgb(168, 160, 160);
+    
+
+}
+.Button button{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 12px;
+    width: 200px;
+    font-size: 1rem;
+    border: none;
+    background-color: white;
+    border-radius: 30px;
+    transition: all 0.4s ease-in-out;
+}
+.Button button:hover{
+    transform: translateY(-10px);
+}
+.HeadingText h1{
+    font-size: 4.8rem;
+    font-weight:900px;
+}
+.HeadingText h2{
+    font-size: 2.5rem;
+    font-weight:900px;
+}
+.ImageClass img{
+    transition: all 0.3s linear;
+    cursor: pointer;
+
+}
+.ImageClass img:hover{
+    transform: translateY(-10px) ;
+}
+@media(min-width:992px){
+    .navbar{
+       background-color: transparent;
+       
+    }
+}
+@media(max-width:991px){
+    .navbar{
+        background-color: transparent;
+    }
+    .navbar-collapse{
+        background-color: white;
+
+     }
+    .nav-link p{
+        color: black;
+
+    }
+
+}
+@media (max-width:767px)
+
+{
+    .Image {
+        text-align: center;
+    }
+    .ImageClass{
+        padding-top: 30px;
+    }
+    
+    
+}
